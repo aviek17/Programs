@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    int arr1[]={1,0,1,0,0,1,0};
+    int arr2[]={1,1,0,0,1,0,1};
+    int m=(sizeof (arr1))/(sizeof arr1[0]);
+    int n=(sizeof (arr2))/(sizeof arr2[0]);
+    longest(arr1[],arr2[],m.n);
+}
+
